@@ -7,8 +7,39 @@
 <body>
     <section>
         <div>
+            <h1>School Registration Form</h1>
             <form action="submitregistration.php">
-                
+                <label for="name">
+                    Full Name <input type="text" placeholder="name" required>
+                </label>
+                <br><br>
+                <label for="gender">
+                    Gender
+                    <select id="gender" name="gender" required>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">other</option>
+                    </select>
+                </label>
+                <br><br>
+                <label for="birthdate">Date of Birth
+                    <input type="date" id="birthdate" name="birthdate" required>
+                </label>
+                <br><br>
+                <label for="academic certtificate">
+                    Highest Academic Certificate
+                    <select name="academic certtificate" id="academic">
+                        <option value="Highschool">Highschool Certificate</option>
+                        <option value="College">College Diploma</option>
+                        <option value="Vocational">Vocational Training Institute</option>
+                        <option value="University">University Degree</option>
+                    </select>
+                </label>
+                <br><br>
+                <label for="email"> Email <Address></Address> <input type="text" placeholder="email address" required></label>
+                <label for="phone">
+                    Phone Number <input type="number" placeholder="Phone number" required>
+                </label>
             </form>
         </div>
     </section>
