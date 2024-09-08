@@ -10,58 +10,71 @@
         <div>
             <h1>School Registration Form</h1>
             <form action="submitregistration.php">
-                <label for="name">
-                    Full Name <input type="text" placeholder="name" required>
-                </label>
+                <div class="form">
+                    <label for="name">
+                        Full Name <input type="text" placeholder="Your name" required>
+                    </label>
+                </div>
                 <br><br>
-                <label for="gender">
-                    Gender
-                    <select id="gender" name="gender" required>
-                        <option value="male">Male</option>
-                        <option value="female">Female</option>
-                        <option value="other">other</option>
-                    </select>
-                </label>
+                <div class="form">
+                    <label for="gender">
+                        Gender
+                        <select id="gender" name="gender" required>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="other">other</option>
+                        </select>
+                    </label>
+                </div>
                 <br><br>
-                <label for="birthdate">Date of Birth
-                    <input type="date" id="birthdate" name="birthdate" required>
-                </label>
+                <div class="form">
+                    <label for="birthdate">Date of Birth
+                        <input type="date" id="birthdate" name="birthdate" required>
+                    </label>
+                </div>
                 <br><br>
-                <label for="academic certtificate">
-                    Highest Academic Certificate
-                    <select name="academic certtificate" id="academic">
-                        <option value="Highschool">Highschool Certificate</option>
-                        <option value="College">College Diploma</option>
-                        <option value="Vocational">Vocational Training Institute</option>
-                        <option value="University">University Degree</option>
-                    </select>
-                </label>
+                <div class="form">
+                    <label for="academic certtificate">
+                        Highest Academic Certificate
+                        <select name="academic certtificate" id="academic">
+                            <option value="Highschool">Highschool Certificate</option>
+                            <option value="College">College Diploma</option>
+                            <option value="Vocational">Vocational Training Institute</option>
+                            <option value="University">University Degree</option>
+                        </select>
+                    </label>
+                </div>
                 <br><br>
-                <label for="email"> Email <Address></Address> <input type="text" placeholder="email address" required></label>
+                <div class="form">
+                    <label for="email"> Email <Address></Address> <input type="text" placeholder="email address" required></label>
+                </div>
                 <br><br>
-                <label for="phone">
-                    Phone Number <input type="number" placeholder="Phone number" required>
-                </label>
+                <div class="form">
+                    <label for="phone">
+                        Phone Number <input type="number" placeholder="Phone number" required>
+                    </label>
+                </div>
                 <br><br>
-                <label for="religion">
-                    Please tick your apprpriate religion(s)
-                    <br>
-                    <input type="checkbox" name="religion" id="religion" value="Christian">
-                    Christian
-                </label>
-                <label for="religion">
-                    <input type="checkbox" name="religion" id="religion" value="Islam">
-                    Islam
-                </label>
-                <label for="religion">
-                    <input type="checkbox" name="religion" id="religion" value="Indian">
-                    Indian
-                </label>
-                <label for="religion">
-                    <input type="checkbox" name="religion" id="religion" value="other">
-                    other
-                </label>
-
+                <div class="religion">
+                    <label for="religion" >
+                        Please tick your apprpriate religion(s)
+                        <br>
+                        <input type="checkbox" name="religion" id="religion1" value="Christian">
+                        Christian
+                    </label>
+                    <label for="religion">
+                        <input type="checkbox" name="religion" id="religion2" value="Islam">
+                        Islam
+                    </label>
+                    <label for="religion">
+                        <input type="checkbox" name="religion" id="religion3" value="Indian">
+                        Indian
+                    </label>
+                    <label for="religion">
+                        <input type="checkbox" name="religion" id="religion4" value="other">
+                        other
+                    </label>
+                </div>
             </form>
         </div>
     </section>

@@ -4,5 +4,46 @@
     background-attachment: scroll;
     background-size:cover ;
     background-color: rgba(0, 0, 0, 0.5);
+    color: white;
     background-blend-mode: multiply;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+input {
+  width: 70%;
+  padding: 10px;
+  margin: 20px 0;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(42, 42, 42, 0.94);
+  box-sizing: border-box;
+  background-color: rgb(63, 34, 75);
+  color: white;
+}
+
+input:focus {
+  background-color: yellow;
+}
+
+select {
+  background-color: lightgray;
+  width: 70%;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#religion1, #religion2, #religion3, #religion4 {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.form {
+  margin: auto;
+  padding: 8px;
+  background-color: rgb(175, 175, 175);
+  border-radius: 13px;
+  width: 500px;
+}
+
