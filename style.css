@@ -22,7 +22,7 @@ input {
 }
 
 input:focus {
-  background-color: yellow;
+  background-color: rgb(106, 106, 106);
 }
 
 select {
@@ -39,11 +39,43 @@ select {
   cursor: pointer;
 }
 
-.form {
+.form, .religion{
   margin: auto;
   padding: 8px;
   background-color: rgb(175, 175, 175);
-  border-radius: 13px;
-  width: 500px;
+  border-radius: 5px;
+  width: 400px;
+  align-items: center;
 }
 
+h1 {
+  text-align: center;
+}
+
+::placeholder , option {
+  color: rgb(255, 0, 0);
+}
+
+label {
+  color: black;
+}
+
+input[type="submit"] {
+    background-color: purple;
+    width: 180px;
+    display: block;
+    margin: 0px auto;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    margin-top: 30px;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: indigo;
+}
